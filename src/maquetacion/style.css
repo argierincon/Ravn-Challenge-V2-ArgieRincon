@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: sf-pro-display, sans-serif;
+}
+
+@font-face {
+  font-family: sf-pro-display;
+  src: url(../assets/fonts/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
+
+:root {
+  --ravn-black: #121212;
+  --text-light: #828282;
+  --text-dark: #333333;
+  --text-emphasis: #ec5757;
+  --text-header: #f2f2f2;
+}
+
+.h2 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.29px;
+}
+
+.h2-default-color,
+.p1-default-color {
+  color: var(--text-dark);
+}
+
+.h2-low-emphasis-color,
+.p1-low-emphasis-color {
+  color: var(--text-light);
+}
+
+.h2-high-emphasis-color {
+  color: var(--text-emphasis);
+}
+
+.p1 {
+  font-size: 14px;
+  line-height: 16.71px;
+}
+
+.header {
+  width: 100vw;
+  height: 52px;
+  background-color: var(--ravn-black);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.header > h2 {
+  color: var(--text-header);
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 16px 0 16px 33px;
+}
+
+.view-home {
+  display: flex;
+}
+
+.drawer {
+  width: 350px;
+  height: 100vh;
+  box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.item-drawer {
+  display: flex;
+  align-items: center;
+  width: 334px;
+  margin-left: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.item-drawer__data-people {
+  width: 290px;
+  margin-right: 16px;
+}
+
+.item-drawer__arrow > span {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.characters-name-drawer {
+  padding-top: 16px;
+}
+
+.character-species-drawer {
+  padding-bottom: 16px;
+}
+
+.loading-drawer,
+.failed-load-drawer {
+  width: 350px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-drawer > img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.general-character-information {
+  width: 100%;
+  margin: 0 100px;
+}
+
+.tittle {
+  width: 340px;
+  padding: 32px 16px 8px 16px;
+}
+
+.item-information {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 16px;
+}
+
+.item-information > h2 {
+  width: 50%;
+  padding: 16px 16px 16px 0;
+}
+
+.align-end {
+  text-align: end;
+}
