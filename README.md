@@ -1,39 +1,25 @@
-# reto-ravn
+![RAVN challenge cover](./src/assets/img/cover.png)
 
-Empty project.
+# Descripción del Proyecto
+Aplicación web que permite la navegación por el API GraphQL Star Wars, para visualizar la información general de los personajes principales de la saga.
 
-## Building and running on localhost
+# Configuración / Ejecución
 
-First install dependencies:
+# Ovwerview
+![](./src/assets/img/view-app.gif)
+![](./src/assets/img/view-app-mobile.gif)
 
-```sh
-npm install
-```
+# Información Adicional
+![](./src/assets/img/prototype.png)
 
-To create a production build:
 
-```sh
-npm run build-prod
-```
 
-To create a development build:
 
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm test
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
+# Tecnologías utilizadas
+- **GraphQL**
+- **ApolloClient**
+- **React**
+- **React-Router**
+- **Webpack**
+- **Sass**
+- **Firebase Hosting**
