@@ -1,6 +1,7 @@
 {
   "rules": {
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "no-unused-vars": "off"
   },
   "env": {
     "es6": true,
