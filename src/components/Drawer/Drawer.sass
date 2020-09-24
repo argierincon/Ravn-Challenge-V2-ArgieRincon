@@ -2,28 +2,37 @@
   width: 350px
   height: 93vh
   box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.15)
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-y: scroll
+  overflow-x: hidden
 
 .drawer::-webkit-scrollbar
-  width: 8px;
+  width: 8px
   /* Tamaño del scroll en vertical */
 
 .drawer::-webkit-scrollbar-thumb
-  background: rgb(138, 136, 136);
-  border-radius: 6px;
+  background: rgb(138, 136, 136)
+  border-radius: 6px
 
 .drawer::-webkit-scrollbar-thumb:hover
-  background: rgb(95, 94, 94);
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(95, 94, 94)
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2)
 
 .drawer::-webkit-scrollbar-track
-  background: #e1e1e1;
-  border-radius: 4px;
+  background: #e1e1e1
+  border-radius: 4px
 
 .drawer::-webkit-scrollbar-track:hover,
 .drawer::-webkit-scrollbar-track:active
-  background: #d4d4d4;
+  background: #d4d4d4
 
 .drawer::-webkit-scrollbar
-  cursor: pointer;
+  cursor: pointer
+
+@media (max-width: 768px)
+  .drawer
+    width: 30%
+  
+  .drawer::-webkit-scrollbar
+    display: none
+  
+
