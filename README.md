@@ -60,6 +60,4 @@ Luego de crear los 9 componentes de la aplicación trabajé en la vista home par
 **deployed application**
 https://ravn-challenge-v2-argie-rincon.web.app/
 
-```
-By: Argie Rincón
-```
+```By: Argie Rincón```
