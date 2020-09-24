@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Home from '../views/Home/Home.jsx';
+import Home from '../views/home/Home.jsx';
 
 import '../assets/styles/Global.sass';
 
