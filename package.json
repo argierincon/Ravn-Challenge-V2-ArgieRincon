@@ -2,7 +2,7 @@
   "name": "reto-ravn",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.jsx",
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,9 +14,11 @@
     "start": "webpack-dev-server --open"
   },
   "dependencies": {
+    "@apollo/client": "^3.2.1",
+    "graphql": "^15.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "webpack-dev-server": "^3.11.0"
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
@@ -29,6 +31,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
+    "favicons-webpack-plugin": "^4.2.0",
     "file-loader": "^6.1.0",
     "font-loader": "^0.1.2",
     "html-webpack-plugin": "^4.4.1",
@@ -39,6 +42,7 @@
     "style-loader": "^1.2.1",
     "url-loader": "^4.1.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
