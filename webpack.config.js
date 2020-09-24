@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -49,10 +50,10 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
+      template: path.resolve(__dirname, '/public/index.html'),
       filename: 'index.html',
     }),
-    new FaviconsWebpackPlugin('./public/favicon.png'),
+    new FaviconsWebpackPlugin(path.resolve(__dirname, '/public/favicon.png')),
   ],
 };
 
