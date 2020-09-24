@@ -1,5 +1,5 @@
-import React from "react";
-import "./Header.sass";
+import React from 'react';
+import './Header.sass';
 
 const Header = () => {
   return (
