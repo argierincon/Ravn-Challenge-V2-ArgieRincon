@@ -34,10 +34,10 @@ Open the file `dist/index.html` in your browser
 
 ## Application Ovwerview
 
-**Web**
+#### Web
 ![View app](./src/assets/img/view-app.gif)
 
-**Responsive**
+#### Responsive
 ![View app mobile](./src/assets/img/view-app-mobile.gif)
 
 ## Additional Information
