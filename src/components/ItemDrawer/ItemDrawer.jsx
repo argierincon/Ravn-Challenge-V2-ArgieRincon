@@ -1,9 +1,13 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 import './ItemDrawer.sass';
 
-const ItemDrawer = ({ name, species, homeworld }) => {
+const ItemDrawer = (props) => {
+  const { name, species, homeworld, idPerson } = props;
+  let { id } = props.match.params;
+  id = id ? id : 'cGVvcGxlOjE=';
   return (
-    <div className="item-drawer">
+    <div className={id === idPerson ? 'item-drawer active' : 'item-drawer'}>
       <div className="item-drawer__data-people">
         <h2 className="characters-name-drawer h2 h2-default-color">{name}</h2>
         <p className="character-species-drawer p1 p1-low-emphasis-color">
@@ -17,4 +21,4 @@ const ItemDrawer = ({ name, species, homeworld }) => {
   );
 };
 
-export default ItemDrawer;
+export default withRouter(ItemDrawer);

@@ -1,11 +1,14 @@
 .item-drawer
   display: flex
   align-items: center
-  width: 334px
   margin-left: 16px
+  padding: 16px
   border-bottom: 1px solid rgba(0, 0, 0, 0.1)
   cursor: pointer
 
+.item-drawer:hover, .active
+  background: linear-gradient(270deg, rgba(18, 18, 18, 0.4) 0%, rgba(10, 10, 10, 0.228) 39.4%, rgba(0, 0, 0, 0) 94.57%);
+  
 .item-drawer__data-people
   width: 290px;
   margin-right: 16px
@@ -13,9 +16,3 @@
 .item-drawer__arrow > span
   font-weight: 700;
   font-size: 22px
-
-.characters-name-drawer
-  padding-top: 16px
-
-.character-species-drawer
-  padding-bottom: 16px
